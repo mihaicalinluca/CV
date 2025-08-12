@@ -1,0 +1,200 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% ModernCV theme and color
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% Character encoding
+\usepackage[utf8]{inputenc}
+
+% Adjust page margins
+\usepackage[scale=0.75]{geometry}
+
+% Personal data
+\name{Mihai Călin}{Luca}
+\title{Senior Blockchain Developer \& Rust Engineer}
+\address{Bucharest, Romania}{}{}
+\phone[mobile]{+40~761~156~263}
+\email{mihaicalin.luca10@gmail.com}
+\social[linkedin]{călin-mihai-819b21192}
+\social[github]{mihaicalinluca}
+\social[twitter]{MihaiCalinLuca1}
+\photo[64pt][0.4pt]{eu} % 64pt is the height, 0.4pt is the frame thickness, 'photo' is the filename
+\extrainfo{Date of birth: October 2, 1998}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Professional Summary}
+\cvitem{}{Senior Blockchain Developer and Technical Lead with 4+ years of experience in Rust, smart contract development, and distributed systems. Core contributor to MultiversX ecosystem with proven expertise in blockchain infrastructure, cryptographic protocols, and full-stack dApp development. Recently led TLSNotary framework modifications for AI integration and RustVM optimizations. Demonstrated track record in delivering production-ready solutions, leading complex technical projects, and driving developer education initiatives. Combines deep technical expertise with strong project leadership and community building skills.}
+
+\section{Technical Skills}
+\cvdoubleitem{Languages}{Rust, Python, JavaScript/TypeScript, Swift}{Blockchain}{MultiversX, Smart Contracts, WASM, Cryptography}
+\cvdoubleitem{Frameworks}{Actix, Axum, Yew, wasm-bindgen, TLSNotary, Reqwest, SpaceCraft SDK}{Databases}{Redis, Oracle DB, MySQL, PostgreSQL}
+\cvdoubleitem{Tools}{Docker, Git, CI/CD, Linux, GitHub API}{Research}{Machine Learning, AI Training Data, Network Protocols, Security Auditing}
+
+\section{Professional Experience}
+
+\cventry{2022--Present}{Senior Blockchain Developer \& Technical Lead}{MultiversX}{Remote}{}{
+Core contributor to the MultiversX Rust SDK and blockchain infrastructure:
+\begin{itemize}
+\item \textbf{TLSNotary Framework Leadership (2024-2025):} Led technical development for truth machine implementation using modified TLS Notary framework. Removed zkProofs and transcript limitations, optimized MPC I/O capacity from 16KB/64KB to 10MB/20MB for large AI agent responses. Built scalable prover server service with session management and streaming support, successfully delivering production-ready MVP for investment acquisition
+\item \textbf{RustVM \& Runtime Systems:} Implemented major modifications to RustVM hook system, executor, and metering mechanisms. Enhanced framework stability and performance across different platforms
+\item \textbf{Framework \& Developer Tools:} Led comprehensive improvements to sc-meta CLI tools, built advanced interactor system with WASM compatibility enabling full-stack Rust dApps on MultiversX. Enhanced framework with Windows compatibility (path handling) and stable Rust compilation support
+\item \textbf{AI Research \& Data Collection (2024):} Developed GitHub scraper in Rust for training data collection for "Can AI write smart contracts?" research project, processing large-scale smart contract datasets for machine learning applications
+\item \textbf{Developer Education \& Content:} Created smart contract building video tutorials for YouTube, expanding MultiversX developer community through educational content and technical workshops. Led a small team of interns through a comprehensive full-stack project, providing mentorship in Rust development, blockchain architecture, and project management
+\item \textbf{Ecosystem Migration \& Architecture:} Led migration to unified syntax across entire ecosystem, resolved critical bugs in framework and devtools, and implemented API optimizations for improved developer experience
+\item \textbf{Full-Stack Innovation:} Pioneered first full-stack Rust dApp using Yew, Actix, Redis, and WASM-bindgen, proving production viability of complete Rust blockchain application stack
+\item \textbf{Cryptographic Implementation:} Added new signature verification hooks (SECP256R1, BLS) and managed decimal arithmetic systems for enhanced security
+\end{itemize}}
+
+\cventry{2021--Present}{Freelance Blockchain Developer \& Founder}{ZenWeb3Solutions}{Remote}{}{
+Founded blockchain development company specializing in DeFi, NFT, and gaming projects on MultiversX:
+\begin{itemize}
+\item \textbf{Full-Stack dApps:} Built xBid (auction house) and xLottery (lottery system) with React/TypeScript frontends, smart contracts, and complete deployment architecture
+\item \textbf{Gaming \& DeFi:} Developed complex smart contracts for Age of Zalmoxis including liquid staking with dynamic APY, marketplace, summoning mechanics, and land chest systems. Developed a fully decentralized exchange and helped with game smart contract migration from different chains to MultiversX. Developed the concept and technical structure for a full point and click game with dungeons and higher level of complexity
+\item \textbf{Smart Contract Portfolio:} Created 30+ production smart contracts including staking systems, NFT/SFT minting, tokenomics, raffles, and payment integrations
+\item \textbf{Security \& Auditing:} Conducted smart contract security audits for DEX protocols and provided migration support for cross-shard scenarios
+\item \textbf{Automation \& Tooling:} Built Python automation scripts for airdrops, contract queries, transactions, and data processing
+\item \textbf{Client Services:} Provided consultancy, documentation, testing, deployment, and maintenance services with legal contracts and crypto/fiat payment options
+\end{itemize}}
+
+\cventry{2021}{ETL Developer}{Oracle}{Bucharest, Romania}{}{
+\begin{itemize}
+\item Developed ETL pipelines using PL/SQL and Oracle Database
+\item Implemented data mappings and resolved architecture issues in enterprise systems
+\item Applied machine learning techniques for data processing optimization
+\end{itemize}}
+
+\cventry{2020}{Junior Software Engineer (Intern)}{Modex}{Bucharest, Romania}{}{
+\begin{itemize}
+\item Developed Java-based tracking application for COVID-19 patient monitoring
+\item Obtained Oracle Java certification
+\item Gained experience in agile project management and team collaboration
+\end{itemize}}
+
+\section{Key Projects}
+
+\cventry{2024--2025}{TLSNotary Truth Machine}{MultiversX}{}{}{
+Technical lead for advanced cryptographic protocol implementation:
+\begin{itemize}
+\item Modified TLS Notary framework: removed zkProofs, optimized MPC features, enhanced transcript handling
+\item Performance breakthrough: optimized MPC I/O from 16KB/64KB to 10MB/20MB for AI agent integration
+\item Built scalable service architecture with session management, streaming support, and multi-environment deployment
+\item Implemented secure chunked response handling for AI agents with message reconstruction
+\item Delivered production-ready MVP that successfully secured investment funding
+\end{itemize}}
+
+\cventry{2024--2025}{GitHub AI Training Scraper}{MultiversX}{}{}{
+Rust-based data collection system for AI research project "Can AI write smart contracts?":
+\begin{itemize}
+\item Built efficient GitHub repository scraper with rate limiting and data processing capabilities
+\item Collected and processed large-scale smart contract datasets for machine learning training
+\item Implemented robust error handling and data validation for reliable dataset creation
+\item Contributed to cutting-edge research in AI-assisted blockchain development
+\end{itemize}}
+
+\cventry{2023--2024}{Paint the Moon - Blockchain Game}{MultiversX}{}{}{
+Innovative proof-of-concept combining 3D graphics, social interaction, and blockchain:
+\begin{itemize}
+\item Developed collaborative r/place-inspired painting game with 3D moon surface mapping
+\item Implemented farmable ESDT token economics and time-based painting mechanics
+\item Built microservice architecture with event listeners, Redis caching, and real-time updates
+\item Created efficient sphere-to-2D mapping algorithms with optimized smart contract storage
+\end{itemize}}
+
+\cventry{2023--2024}{mx-ping-pong-dapp-rs}{MultiversX}{}{}{
+First complete full-stack dApp entirely in Rust ecosystem:
+\begin{itemize}
+\item Frontend: Yew framework with WASM-bindgen for seamless browser integration
+\item Backend: Actix web server with Redis caching and direct blockchain interaction
+\item Microservice architecture with cron jobs for automated contract state updates
+\item Proved production viability of Rust for complete blockchain application stack
+\end{itemize}}
+
+\cventry{2022}{Age of Zalmoxis - Blockchain Game}{Wenmoon Studios}{}{}{
+Comprehensive DeFi and gaming smart contract ecosystem:
+\begin{itemize}
+\item Liquid staking system with dynamic APY calculation and auto-compound functionality
+\item Complex marketplace with NFT/SFT/Token/EGLD swaps and offer management
+\item Multi-token summoning mechanics combining EGLD and custom ESDT tokens
+\item Land chest sale system with discount mechanics and randomized opening logic
+\end{itemize}}
+
+\cventry{2021--2022}{xBid \& xLottery dApps}{ZenWeb3Solutions}{}{}{
+Production-ready auction and lottery platforms:
+\begin{itemize}
+\item \textbf{xBid:} Complete auction house with admin panel, incremental bidding, timer mechanics, and prize claiming
+\item \textbf{xLottery:} Hourly lottery system with ticket purchasing, number extraction, and reward distribution
+\item Full-stack architecture: Rust smart contracts, React/TypeScript frontend, Python automation scripts
+\item Comprehensive deployment, testing, and documentation delivered to clients
+\end{itemize}}
+
+\section{Publications \& Content Creation}
+
+\cventry{2024}{Technical Article}{Medium}{}{}{
+\textbf{"The Art of Testing Smart Contracts on MultiversX: Securing Code and Trust"}
+\begin{itemize}
+\item Comprehensive guide on smart contract testing methodologies and security practices
+\item Covers testing frameworks, security considerations, and best practices for blockchain development
+\item Published on Medium with positive reception from the developer community
+\item \textit{Available at: https://medium.com/@calin.luca/the-art-of-testing-smart-contracts-on-multiversx-securing-code-and-trust-8f50eb2ae2f7}
+\end{itemize}}
+
+\cventry{2023--Present}{Video Content \& Tutorials}{YouTube \& Social Media}{}{}{
+\begin{itemize}
+\item Created smart contract building video tutorials for MultiversX ecosystem
+\item Active technical content creator on Twitter (@MihaiCalinLuca1) with growing developer audience
+\item Regular posts about Rust, blockchain development, and technical insights
+\item Engages with blockchain developer community through technical discussions and tutorials
+\end{itemize}}
+
+\section{Education}
+
+\cventry{2021--2024}{Bachelor of Psychology}{University of Amsterdam}{Amsterdam, Netherlands}{}{Focus on cognitive science and human-computer interaction}
+
+\cventry{2017--2021}{Bachelor of Computer Science}{University of Bucharest}{Bucharest, Romania}{}{Faculty of Mathematics and Informatics, specialization in algorithms and AI}
+
+\cventry{2013--2017}{Computer Science Profile}{"Radu Greceanu" National College}{Slatina, Romania}{}{Final exam scores: Mathematics (9.95/10), Physics (9.5/10)}
+
+\section{Certifications \& Recognition}
+
+\cvitem{Oracle}{Java SE Certification}
+\cvitem{Academic}{Dean's List, Multiple Programming Competitions}
+
+\section{Languages}
+\cvitemwithcomment{Romanian}{Native speaker}{}
+\cvitemwithcomment{English}{Proficient (C1/C2)}{Professional working proficiency}
+\cvitemwithcomment{German}{Intermediate (B1)}{Basic conversation}
+
+\section{Soft Skills \& International Experience}
+
+\cventry{Leadership \& Team Management}{}{}{}{}{
+\begin{itemize}
+\item \textbf{Vice-President Role:} Led National College Student Council (2013-2017) organizing large-scale events, charity initiatives, and cultural programs
+\item \textbf{Technical Mentorship:} Successfully guided interns through complex full-stack projects, providing structured learning paths and career development
+\item \textbf{Cross-functional Collaboration:} Coordinated with international teams, clients, and stakeholders across different time zones and cultural contexts
+\item \textbf{Project Leadership:} Managed multiple concurrent blockchain projects from conception to deployment with diverse client requirements
+\end{itemize}}
+
+\cventry{International \& Multicultural Experience}{}{}{}{}{
+\begin{itemize}
+\item \textbf{Global Education:} Studied across three countries (Romania, Netherlands, remote international programs) adapting to diverse academic and cultural environments
+\item \textbf{Youth Exchange Programs:} Participated in international collaborations with Turkey, Lithuania, Hungary, Italy, Poland, Brazil, and Latvia during student council leadership
+\item \textbf{Remote Work Excellence:} 4+ years of successful remote collaboration with international teams, clients, and open-source contributors worldwide
+\item \textbf{Cultural Adaptability:} Thrived in Amsterdam's international environment while maintaining strong professional networks across Europe and globally
+\end{itemize}}
+
+\cventry{Communication \& Community Impact}{}{}{}{}{
+\begin{itemize}
+\item \textbf{Open Source Leadership:} Active GitHub contributor (@mihaicalinluca) with 100+ merged PRs to MultiversX ecosystem
+\item \textbf{Technical Education:} Published articles on blockchain development and smart contract security, created video tutorials, and built engaged developer community on social media (@MihaiCalinLuca1)
+\item \textbf{Public Speaking:} Presented technical concepts through video tutorials and community engagement with confidence and clarity
+\item \textbf{Relationship Building:} Maintained long-term client relationships spanning multiple years and projects with high satisfaction rates
+\end{itemize}}
+
+\section{Additional Information}
+\cvitem{Interests}{Competitive sports (former national karate vice-champion), music production, blockchain research}
+
+\end{document}
